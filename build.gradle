@@ -1,0 +1,20 @@
+buildscript {
+ repositories {
+ jcenter()
+ }
+ dependencies {
+ classpath 'org.javafxports:jfxmobile-plugin:1.0.8'
+ }
+}
+apply plugin: 'org.javafxports.jfxmobile'
+repositories {
+ jcenter()
+}
+mainClassName = 'tictactoe.gui.TicTacToe'
+jfxmobile {
+ javafxportsVersion = '8.60.7'
+ android {
+ applicationPackage = 'dk.adamino'
+ androidSdk = 'C:/Users/Adam/AppData/Local/Android/sdk'
+ }
+}

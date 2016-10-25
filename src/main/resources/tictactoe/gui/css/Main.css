@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 24-08-2016, 12:36:01
+    Author     : Stegger
+*/
+
+#pane {
+    -fx-background-image: url(../images/background.jpg);
+    -fx-background-repeat: stretch;   
+    -fx-background-position: center;
+}
+
+.winning-row {
+    -fx-background-color:
+        radial-gradient( radius 100%, white, lightyellow, lawngreen);
+    -fx-text-fill: red;
+}
